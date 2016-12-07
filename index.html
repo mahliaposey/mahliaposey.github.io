@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Mahlia Posey's Portfolio</title>
-     <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
     
@@ -217,7 +217,7 @@
                     <br>in my second year at <a href="https://journalism.berkeley.edu/students/mahlia_posey/" target="_blank"> UC Berkeley Graduate School of Journalism. </a>
                     <br> Recently, I was awarded a National Association of Black Journalist fellowship at <a href="http://www.nbcnews.com/nightly-news" target="_blank">NBC Nightly News. </a> 
                     <br>My work has been published in <a href="http://blog.sfgate.com/inoakland/2016/04/04/credentials-rules-leave-some-east-bay-dance-instructors-unable-to-teach/">The San Francisco Chronicle,</a> <a href="http://www.nbcnews.com/nightly-news/video/nightly-news-full-broadcast-july-8th-721588291815">NBC Nightly News,</a> <a href="http://www.nbcnews.com/video/how-diversity-shapes-multiracial-experiences-779076675976">NBC Asian America,</a> and <a href="http://richmondconfidential.org/author/mahlia-posey/"> Richmond Confidential</a> 
-                    <br>See my resume <a href="/assets/MahliaResumeFloral%20webcopy.pdf" target="_blank"> here</a>.
+                    <br>See my resume <a href="/assets/MahliaResumeFloral.pdf" target="_blank"> here</a>.
                     <br>
                 </p>
         </header>
@@ -231,12 +231,14 @@
     </div>
     
 
-    <div class="container-fluid">  
+    <div class="container">  
 		
-		<div class="col-md-6 col-md-offset-3 text-center">
-			<p class="lead section">Data Visualization</p>
-		</div>
-
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <p class="lead section">Data Visualization</p>
+            </div>
+        </div>
+      
         <div class="row">
             	
 			<div class="col-sm-4 text-center">
@@ -273,7 +275,8 @@
             </div>
 			
 		  
-        </div>
+        </div><!-- end .row -->
+        
 		
 		<div class="row">
 			
@@ -310,19 +313,55 @@
 					<p>Class project using R</p>
                 </div>
             </div>
+        </div><!-- end .row -->
+            
+        <div class="row">
+            
+            <div class="col-sm-4 text-center">
+                <div class="inner-box">
+                  <a href="assets/webpages/index3.html" target="_blank">
+                     <img class="img-responsive center-block" width="500" height="281"
+                      src="assets/images/homiciderates.png" alt="">
+                    </a>
+                    <h3>Death Rates by Firearm in the US 2014-2015</h3>
+					<p><span class="type">Data Visulization</span></p>
+						<p>Class Project using R</p>
+                </div>
+            </div>
+            
+<!-- Uncomment these two boxes to add more items.
+
+            <div class="col-sm-4 text-center">
+                <div class="inner-box">
+                    
+                </div>
+            </div>
+            
+            
+            <div class="col-sm-4 text-center">
+                <div class="inner-box">
+                    
+                </div>
+            </div>   
+-->
+            
+        </div><!-- end .row -->
 			
-			
-		</div>
-		
-		<div class="col-md-6 col-md-offset-3 text-center">
-			<p class="lead section">Video</p>
-		</div>
+
+		<div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <p class="lead section">Video</p>
+            </div>
+        </div>
 		
 		<div class ="row">
 			
 			<div class="col-sm-4 text-center">
                 <div class="inner-box">
-                  <iframe src="https://player.vimeo.com/video/166743652?portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                  <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/166743652?portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
                     <h3>After Oscar: They Reminisce Over Us</h3>
 					<p><span class="type">Video</span></p>
 						<p>Independent Project</p>
@@ -331,7 +370,9 @@
 			
 			<div class="col-sm-4 text-center">
                 <div class="inner-box">
-                    <iframe src="https://player.vimeo.com/video/160923769?portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/160923769?portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
                     <h3>Outrigger Canoeing Flourishes in the Bay Area</h3>
                     <p><span class="type">Video</span></p>
 						<p>SFChronicle.com</p>
@@ -349,12 +390,16 @@
                 </div>
             </div>
 		
-		</div>
+		</div><!-- end .row -->
 		
+        <div class="row">
+            <p class="lead section text-center">Writing</p>
+        </div>
+        
+        
 		<div class="row">
 			
 			<div class="col-sm-4 text-center">
-                <p class="lead section">Writing</p>
                 <div class="inner-box">
                     <a href="http://richmondconfidential.org/2015/11/20/richmond-youth-council-aims-to-lower-voting-age/" target="_blank">
                         <img class="img-responsive center-block" width="500" height="281" src="Pictures/2015116_VOTINGAGE_ManjulaVarghese_pic11-620x381.jpg"alt="chart">
@@ -388,7 +433,7 @@
             </div>
 		
 		
-		</div>
+		</div><!-- end .row -->
   
 
 </div><!-- end .container -->
